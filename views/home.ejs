@@ -1,0 +1,19 @@
+<%- include('partial/header') %>
+       
+        
+        <% homeList.forEach(function (homelist){ %>
+                <div class="bodydiv">
+                        <h1><strong><%=homelist.title %></strong></h1>
+                        <% if (homelist.title=='Home')  {                 %>
+                        <p1> <%=homelist.body %></p1>
+                       <% } else {  %>
+                         <p1><%=homelist.truncated %></p1>
+                        <a class='readmore' href="/<%=homelist.title %>">Read More>>></a>
+                       <%  }   %>
+                        </div>
+        
+                
+        <% }) %>
+       
+    
+<%- include('partial/footer') %>

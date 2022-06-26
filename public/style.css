@@ -1,0 +1,88 @@
+body {
+  text-align: start;
+  font-family: 'Anek Malayalam', sans-serif;
+  color:black;
+  margin:0;
+}
+a {
+  text-decoration: none;
+  color:black;
+}
+a:hover {
+  color:blueviolet;
+}
+.listdiv {
+     background-color: antiquewhite;
+     
+     padding-top:2%;
+     padding-bottom:2%;
+
+}
+
+li {
+    display:inline-block;
+   
+}
+
+
+.bodydiv{
+  margin:20px 60px 60px 60px;
+  line-height: 2;
+}
+
+
+.dailyjournal {
+    margin:0px 0px 0px 60px;
+}
+.home {
+  margin:0px 0px 0px 700px;
+   
+}
+
+.aboutus {
+  margin:0px 0px 0px 50px;
+}
+
+.contactus {
+  margin:0px 0px 0px 80px;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+/* <-- compose --> */
+
+.titleinput {
+  display:flex;
+  height:35px;
+  margin-bottom: 20px;
+  width:100%;
+
+}
+
+.composeinput {
+  display:flex;
+  height:150px;
+  text-align: start;
+  width:100%;
+  margin-bottom: 20px;
+}
+
+a.readmore {
+  color:blue;
+  margin-left:10px;
+}
+p1.nothomeword {
+  height:20px;
+   overflow: hidden;
+   
+  text-overflow: ellipsis;
+}
+/* <-- footer --> */
+
+.footer {
+  text-align:center;
+  background-color:aqua;
+  margin:25% 0 0 0;
+  padding:4%;
+}
